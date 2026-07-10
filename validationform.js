@@ -4,6 +4,8 @@ const contactEmail = document.getElementById("contact-email");
 const contactSubject = document.getElementById("contact-subject");
 const contactMessage = document.getElementById("contact-message");
 
+
+
 // helper function to show or hide error messages
 function showError(inputElement, message) {
   const errorDiv = inputElement.nextElementSibling;

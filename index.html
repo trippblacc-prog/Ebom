@@ -6,15 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Profile Card</title>
         <meta name="description" content="Ebom Onwuegbute - Freelance Web Developer specializing in responsive sites and React.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
-    <body>
+    <body class="animated-bg">
+        
 
         <nav class="top-nav">
             <a href="index.html" class="nav-link">Profile</a>
             <a href="about.html" class="nav-link">About</a>
             <a href="contactUs.html" class="nav-link">Contact</a>
+            
         </nav>
 
         <article data-testid="test-profile-card" id="profile-card-root">
@@ -24,8 +29,8 @@
                 <figure id="figure-id" class="reveal reveal-up">
 
                     <label for="upload-image">
-                    <img src="images/userimage.jpg" data-testid="test-user-avatar" alt="" id="user-image" aria-label="User's profile photo" loading="lazy">
-                    <figcaption data-testid="profile-image">Profile Photo</figcaption>
+                    <img src="images/IMG_0027.jpg" data-testid="test-user-avatar" alt="" id="user-image" aria-label="User's profile photo" loading="lazy">
+                    <!--<figcaption data-testid="profile-image">Profile Photo</figcaption>-->
                     </label>
 
                     <!--<input type="file" id="upload-image" accept="image/*">-->
@@ -120,5 +125,6 @@
         </article>
 
         <script type="text/javascript" src="script.js"></script>
+       
     </body>
 </html>

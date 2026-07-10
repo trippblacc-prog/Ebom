@@ -54,6 +54,8 @@ inputfile.addEventListener('change', (event) => {
     }
 });
 
+
+
 const reveals = document.querySelectorAll('.reveal');
 
 
