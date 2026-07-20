@@ -32,7 +32,7 @@ body {
   color: #222;
 }
 
-/* Add this to your body CSS */
+
 .animated-bg {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -46,6 +46,12 @@ body {
 
 
 .top-nav {
+    position: sticky; /* Keeps it locked to the top */
+    top: 0;           /* Trigger point */
+    z-index: 1000;    /* Ensures it sits above other content */
+    background: rgba(245, 246, 250, 0.4); /* Semi-transparent background */
+    backdrop-filter: blur(3px);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,6 +177,7 @@ body {
 #header-div p,
 #header-div h3,
 #header-div time {
+  font-size:1.2rem;
   margin-bottom: 1rem;
   line-height: 1.5;
   text-shadow: 
@@ -277,7 +284,7 @@ li,
   background: #f8f8f8;
   border-radius: 10px;
   padding: 0.5rem 1rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
 }
 
@@ -286,9 +293,9 @@ li,
   flex-direction: column;
   justify-content: center;
   align-items: stretch; 
-  width: 100%;          /* Ensure the container is full width */
+  width: 100%;          /* Ensures the container is full width */
   max-width: 600px;     
-  margin: 0 auto;       /* This centers the whole block on the page */
+  margin: 0 auto;       /* centers the whole block on the page */
   text-align:center;
 }
 
@@ -497,6 +504,18 @@ h1, h2, h3, h4, h5, h6 {
 .svg-img{
   width:30px;
   height:30px;
+}
+
+.site-footer {
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+    text-align: center;
+    border-top: 2px solid #2d00a8; /* Matches your header border */
+    color: #2d00a8;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
 }
 
 
