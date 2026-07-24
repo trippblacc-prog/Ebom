@@ -117,7 +117,7 @@ body {
   height: 300px;
   border-radius: 20px;
   border:5px solid whitesmoke;
-  object-fit: cover;
+  object-fit:center/cover no-repeat;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 }
@@ -178,14 +178,15 @@ body {
 #header-div h3,
 #header-div time {
   font-size:1.2rem;
+  font-weight: bold;
   margin-bottom: 1rem;
   line-height: 1.5;
-  text-shadow: 
+  /*text-shadow: 
       -1px -1px 0 rgba(255,255,255,0.2),
         1px -1px 0 rgba(255,255,255,0.2),
       -1px  1px 0 rgba(255,255,255,0.2),
         1px  1px 0 rgba(255,255,255,0.2);
-  
+  */
 }
 
 
@@ -242,6 +243,7 @@ body {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   transition: transform 0.3s ease;
+  text-align: center;
 }
 
 #project-img-id {
