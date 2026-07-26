@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
     width: 100%;
     border-bottom: 2px solid #2d00a8;
@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: nowrap;
     height: auto;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   #header-div h2 {
@@ -455,6 +455,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 }
+
 
 
 
