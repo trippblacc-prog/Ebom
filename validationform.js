@@ -43,12 +43,12 @@ function validateForm() {
   }
 
   // Validate Subject
-  if (contactSubject.value.trim() === "") {
+  /*if (contactSubject.value.trim() === "") {
     showError(contactSubject, "Subject is required");
     isValid = false;
   } else {
     hideError(contactSubject);
-  }
+  }*/
 
   // Validate Message
   if (contactMessage.value.trim() === "" || contactMessage.value.trim().length < 10) {
