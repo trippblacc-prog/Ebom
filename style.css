@@ -283,10 +283,11 @@ li,
 #section-future-note p,
 #section-about p,
 #portfolio p{
-  background: #f8f8f8;
+  /*background: #f8f8f8;*/
   border-radius: 10px;
   padding: 0.5rem 1rem;
   font-size: 1rem;
+  font-weight: bold;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
 }
 
