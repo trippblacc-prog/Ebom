@@ -1,7 +1,7 @@
 const form = document.getElementById("contact-form");
 const contactName = document.getElementById("contact-name");
 const contactEmail = document.getElementById("contact-email");
-const contactSubject = document.getElementById("contact-subject");
+//const contactSubject = document.getElementById("contact-subject");
 const contactMessage = document.getElementById("contact-message");
 
 
