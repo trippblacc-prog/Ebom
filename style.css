@@ -141,7 +141,6 @@ body {
 #section-confidence-areas:hover,
 #section-future-note:hover,
 #section-about:hover,
-#portfolio:hover,
 #header-div:hover,
 #contact-message:hover,
 #contact-subject:hover,
@@ -245,6 +244,8 @@ body {
   transition: transform 0.3s ease;
   text-align: center;
 }
+
+
 
 #project-img-id {
   display:flex;
